@@ -1,0 +1,36 @@
+{
+  "name": "legoartcreator",
+  "version": "1.0.0",
+  "description": "Web App to create Lego Art. Fan made website.",
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "hugo",
+    "dev": "hugo server",
+    "start": "hugo --gc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelfondeur/legoartcreator.git"
+  },
+  "keywords": [
+    "Lego",
+    "Art",
+    "Canvas",
+    "JS",
+    "Components",
+    "Creator"
+  ],
+  "author": "Miguel Fondeur",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelfondeur/legoartcreator/issues"
+  },
+  "homepage": "https://github.com/miguelfondeur/legoartcreator#readme"
+}
